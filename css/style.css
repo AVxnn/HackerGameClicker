@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #B9B9B9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    outline-style: none;
+    font-size: 14px;
+}
+
+body{
+    background-color: #1A1A1A;
+}
+
+.prl_load{
+    display: block;
+}
+
+.bodymain {
+    position: absolute;
+    background-color: #1A1A1A;
+    height: 100%;
+    width: 414px;
+    left: 50%;
+    margin-left: -207px;
+}
+
+.text_info{
+    margin-left: -20px;
+}
+
+.logotypemain{
+    position: relative;
+    left: 50%;
+    margin-left: -90px;
+    margin-top: 82px;
+    width: 179px;
+    margin-bottom: 90px;
+}
+
+.window_os{
+    position: relative;
+    width: 380px;
+    height: 105px;
+    background-color: #323232;
+    border-radius: 12px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 20px;
+}
+
+.window_information{
+    height: 169px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+.window_os_title_bg{
+    width: 380px;
+    height: 18px;
+    background-color: #E0E0E0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.circle{
+    display: inline-block;
+    list-style-type: none;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin-right: 2px;
+}
+
+.circle:first-child{
+    margin-left: 9px;
+}
+
+.red_color{
+    background-color: #EB7373;
+}
+
+.yellow_color{
+    background-color: #E9C568;
+}
+
+.green_color{
+    background-color: #80E56F;
+}
+
+.window_os_title_text{
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    color: black;
+    font-size: 12px;
+    left: 26%;
+}
+
+.input_windowregist_name,
+.input_windowregist_password{
+    
+    background-color: #323232;
+    border: 0;
+    font-size: 18px;
+    color: #8a8a8a;
+}
+
+.text_window{
+    margin-bottom: 8px;
+    color: #8a8a8a;
+}
+
+
+
+
+
+
+
+.main_window{
+    display: none;
+    padding: 10px;
+}
+
+.main_text{
+    position: relative;
+    margin-bottom: 6px;
+    left: 10px;
+    top: 34px;
+}
+
+.a_text_windowregist{
+    position: relative;
+    top: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #73D5EB;
+    transition: 0.3s;
+}
+
+.a_text_windowregist:hover {
+    color: #59a6b8;
+}
+
+
+.window_are_you_ready{
+    height: 105px;
+    position: relative;
+}
+
+.a_text__are_you_ready{
+    color: #E24747;
+    text-decoration: none;
+}
+
+.title_bottom{
+    display: inline;
+    position: relative;
+    top: 20%;
+    left: 336px;
+}
+
+
+.window_name{
+    height: 169px;
+    position: relative;
+}
+
+.main_text_window_name{
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+}
+
+.text_window_name{
+    margin-top: 4px;
+}
+
+.title_text_window{
+    font-size: 18px;
+}
+
+.window_shop{
+    position: relative;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.title_text_window{
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+
+.title_text_shop{
+    font-size: 18px;
+    margin-top: 2vh;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.title_text_shop:hover{
+    color: #838383;
+}
+
+.span_text_shop{
+    transition: 0.2s;
+}
+
+.span_text_shop:hover{
+    color: #bd2828;
+}
+
+.main_text_window_shop{
+    position: relative;
+    left: 10px;
+}
+
+.main_text_window_shop span{
+    font-size: 18px;
+}
+
+
+
+
+.window_hacker{
+    height: 20vh
+}
+
+.title_text_window_hacker{
+    margin-left: 10px;
+
+}
+
+.list_window_hacker{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.qrcode{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 60%;
+    margin-top: -50px;
+    transition: 0.3s;
+}
+
+.qrcode:hover{
+    position: absolute;
+    transform: rotate(10deg);
+}
+
+
+
+.window_navigation{
+    height: 10vh;
+}
+
+.list_window_navigation{
+    
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+
+}
+
+.item_window_navigation{
+    display: inline-block;
+    
+    margin-left: 37px;
+}
+
+.bgimg{
+    position: absolute;
+    height: 880px;
+    width: 414px;
+}
+
+.cliker_hacker{
+    cursor: pointer;
+}
+
+.settings_navigation .a_text_navigation{
+    color: #73D5EB;
+}
+
+.statistics_navigation .a_text_navigation{
+    color: #615EFF;
+}
+
+.shop_navigation .a_text_navigation{
+    color: #BD9F35;
+}
+
+
+
+.window_done{
+    height: 105px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.pharagraph_done{
+    color: #6865FF;
+    position: relative;
+    left: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
