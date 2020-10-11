@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker hacker by vann</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bodymain">
+        
+        <header class="prl_load ">
+            <img class="logotypemain" src="img/logo.png" alt="">
+            <div class="window_os window_information" >
+                <div class="window_os_title_bg">
+                    <ul class=""> 
+                        <li class="circle red_color"></li>
+                        <li class="circle yellow_color"></li>
+                        <li class="circle green_color"></li>
+                        <li class="window_os_title_text text_info">name and password</li>
+                    </ul>
+                </div>
+                <div class="main_text">
+                    <p class="text_window">> <input class="input_windowregist_name" type="text" placeholder="enter your name"></p>
+                    <p class="text_window">> <input class="input_windowregist_password" type="password" placeholder="enter your password"></p>
+                    <a id="submit_start_menu" class="a_text_windowregist" href="#" onclick="checkInput()">> submit</a>
+                </div>
+            </div>
+            <div class="window_os window_done">
+                <div class="window_os_title_bg">
+                    <ul class=""> 
+                        <li class="circle red_color"></li>
+                        <li class="circle yellow_color"></li>
+                        <li class="circle green_color"></li>
+                        <li class="window_os_title_text">Information</li>
+                    </ul>
+                </div>
+                <div class="main_text_done">
+                    <p class="pharagraph_done">> done</p>
+                </div>
+            </div>
+            <div class="window_os window_are_you_ready">
+                <div class="window_os_title_bg">
+                    <ul class=""> 
+                        <li class="circle red_color"></li>
+                        <li class="circle yellow_color"></li>
+                        <li class="circle green_color"></li>
+                        <li class="window_os_title_text">are you ready?</li>
+                    </ul>
+                </div>
+                <div class="main_text">
+                    <a class="a_text__are_you_ready " href="#" onclick="startgame()">> start game</a>
+                </div>
+            </div>
+            <p class="title_bottom">by vann</p>
+        </header>
+        
+        <main class="main_window">
+            <!-- <img class="bgimg" src="img/bg.jpeg" alt=""> -->
+            <div class="window_os window_name">
+                <div class="window_os_title_bg">
+                    <ul class=""> 
+                        <li class="circle red_color"></li>
+                        <li class="circle yellow_color"></li>
+                        <li class="circle green_color"></li>
+                        <li class="window_os_title_text">Information</li>
+                    </ul>
+                </div>
+                <div class="main_text_window_name">
+                    <p class="text_window_name title_text_window">> hackers clicker by vann</p>
+                    <p class="text_window_name " style="color: #3E75DF;">> name: <span style="color: #3E75DF;"  class="name_window_name">1</span> </p>
+                    <p class="text_window_name " style="color: #C6CA1B;">> password: <span style="color: #C6CA1B;" class="password_window_name">******</span>
+                    <p class="text_window_name " style="color: #1DA62B;">> balance ₿ <span style="color: #1DA62B;" class="money_window_name">0</span></p>
+                    <p class="text_window_name " style="color: #B13726;">> power: <span style="color: #B13726;">1</span> cc</p>
+                    <p class="text_window_name " style="color: #73D5EB;">> skills: <span style="color: #73D5EB;">1</span> lvl</p>
+                </div>
+            </div>
+            <div class="window_os window_shop">
+                <div class="window_os_title_bg">
+                    <ul class=""> 
+                        <li class="circle red_color"></li>
+                        <li class="circle yellow_color"></li>
+                        <li class="circle green_color"></li>
+                        <li class="window_os_title_text">Shop list</li>
+                    </ul>
+                </div>
+                <div class="main_text_window_shop">
+                    <a href="#" class="text_window_name title_text_shop">> buy ide pycharm - ₿ <span class="span_text_shop">1000</span></a>
+                    <a href="#" class="text_window_name title_text_shop">> courses on programming - ₿ <span class="span_text_shop">5000</span></a>
+                    <a href="#" class="text_window_name title_text_shop">> buy new computer - ₿ <span class="span_text_shop">10000</span></a>
+                    <a href="#" class="text_window_name title_text_shop">> buy new processer - ₿ <span class="span_text_shop">20000</span></a>
+                    <a href="#" class="text_window_name title_text_shop">> buy new videoCard - ₿ <span class="span_text_shop">30000</span></a>
+                    <a href="#" class="text_window_name title_text_shop">> buy new computer - ₿ <span class="span_text_shop">50000</span></a>
+                </div>
+            </div>
+            <div class="window_os window_hacker cliker_hacker" onclick="clickbutton()">
+                <div class="window_os_title_bg">
+                    <ul class=""> 
+                        <li class="circle red_color"></li>
+                        <li class="circle yellow_color"></li>
+                        <li class="circle green_color"></li>
+                        <li class="window_os_title_text">Hacker space</li>
+                    </ul>
+                </div>
+                <div class="main_text_window_hacker">
+                    <img class="qrcode" src="img/qrcode.png" alt="">
+                    <ul class="main_window_hacker">
+                        <li class="list_window_hacker"><p class="text_window_hacker title_text_window_hacker">> press the qr code</p></li>
+                        <li class="list_window_hacker"><p class="text_window_hacker title_text_window_hacker">> hash kc51qg</p></li>
+                        <li class="list_window_hacker"><p class="text_window_hacker title_text_window_hacker">> hash hfg18v</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="window_os window_navigation">
+                <div class="window_os_title_bg">
+                    <ul class=""> 
+                        <li class="circle red_color"></li>
+                        <li class="circle yellow_color"></li>
+                        <li class="circle green_color"></li>
+                        <li class="window_os_title_text">Navigation</li>
+                    </ul>
+                </div>
+                <div class="main_text_window_navigation">
+                    <ul class="list_window_navigation">
+                        <li class="item_window_navigation settings_navigation"><a href="#" class="a_text_navigation">> settings</a></li>
+                        <li class="item_window_navigation statistics_navigation"><a href="#" class="a_text_navigation">> statistics</a></li>
+                        <li class="item_window_navigation shop_navigation"><a href="#" class="a_text_navigation">> open shop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>  
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
