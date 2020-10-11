@@ -14,7 +14,7 @@ let clickbutton = function () { // Добавляет деньги при наж
     console.log(statistics);
 };
 
-let game = function () {
+let game = function () { // Основная функция для выполнения всех функция +
 
     clickbutton();
 };
@@ -30,7 +30,7 @@ let startgame = function(){
     }
 }
 
-let checkInput = function(){
+let checkInput = function(){ // Проверка на ввод имя и пароля и скрытия меню регистрации
     statistics[0] = name_start.value;
     statistics[1]  = password_start.value;
     if(statistics[0].length < 4){
@@ -50,7 +50,7 @@ let checkInput = function(){
     
 }
 
-let changeNP = function(){
+let changeNP = function(){ // Добавляет имя на экране игры
     let name_in = document.querySelector('.name_window_name');
     name_in.innerHTML = statistics[0];
 }

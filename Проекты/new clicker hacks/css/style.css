@@ -156,6 +156,7 @@ body{
 }
 
 .title_bottom{
+    display: inline;
     position: relative;
     top: 20%;
     left: 336px;
