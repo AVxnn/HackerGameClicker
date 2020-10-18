@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clicker hacker by vann</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="bodymain">
-        
+
         <header class="prl_load ">
             <img class="logotypemain" src="img/logo.png" alt="">
             <div class="window_os window_information" >
                 <div class="window_os_title_bg">
-                    <ul class=""> 
+                    <ul class="">
                         <li class="circle red_color"></li>
                         <li class="circle yellow_color"></li>
                         <li class="circle green_color"></li>
@@ -23,12 +24,12 @@
                 <div class="main_text">
                     <p class="text_window">> <input class="input_windowregist_name" type="text" placeholder="enter your name"></p>
                     <p class="text_window">> <input class="input_windowregist_password" type="password" placeholder="enter your password"></p>
-                    <a id="submit_start_menu" class="a_text_windowregist" href="#" onclick="checkInput()">> submit</a>
+                    <a id="submit_start_menu" class="a_text_windowregist" href="#">> submit</a>
                 </div>
             </div>
-            <div class="window_os window_done">
+            <div class="window_os window_done mainNone">
                 <div class="window_os_title_bg">
-                    <ul class=""> 
+                    <ul class="">
                         <li class="circle red_color"></li>
                         <li class="circle yellow_color"></li>
                         <li class="circle green_color"></li>
@@ -39,7 +40,7 @@
                     <p class="pharagraph_done">> done</p>
                 </div>
             </div>
-            <div class="window_os window_are_you_ready">
+            <div class="window_os window_are_you_ready mainNone">
                 <div class="window_os_title_bg">
                     <ul class="">
                         <li class="circle red_color"></li>
@@ -49,17 +50,17 @@
                     </ul>
                 </div>
                 <div class="main_text">
-                    <a class="a_text__are_you_ready " href="#" onclick="startgame()">> start game</a>
+                    <a class="a_text__are_you_ready" href="#">> start game</a>
                 </div>
             </div>
             <p class="title_bottom">by vann</p>
         </header>
-        
-        <main class="main_window">
+
+        <main class="main_window mainNone">
             <!-- <img class="bgimg" src="img/bg.jpeg" alt=""> -->
             <div class="window_os window_name">
                 <div class="window_os_title_bg">
-                    <ul class=""> 
+                    <ul class="">
                         <li class="circle red_color"></li>
                         <li class="circle yellow_color"></li>
                         <li class="circle green_color"></li>
@@ -77,7 +78,7 @@
             </div>
             <div class="window_os window_shop">
                 <div class="window_os_title_bg">
-                    <ul class=""> 
+                    <ul class="">
                         <li class="circle red_color"></li>
                         <li class="circle yellow_color"></li>
                         <li class="circle green_color"></li>
@@ -93,9 +94,9 @@
                     <a href="#" class="text_window_name title_text_shop">> buy new computer - ₿ <span class="span_text_shop">50000</span></a>
                 </div>
             </div>
-            <div class="window_os window_hacker cliker_hacker" onclick="clickbutton()">
+            <div class="window_os window_hacker cliker_hacker">
                 <div class="window_os_title_bg">
-                    <ul class=""> 
+                    <ul class="">
                         <li class="circle red_color"></li>
                         <li class="circle yellow_color"></li>
                         <li class="circle green_color"></li>
@@ -113,7 +114,7 @@
             </div>
             <div class="window_os window_navigation">
                 <div class="window_os_title_bg">
-                    <ul class=""> 
+                    <ul class="">
                         <li class="circle red_color"></li>
                         <li class="circle yellow_color"></li>
                         <li class="circle green_color"></li>
@@ -129,8 +130,9 @@
                 </div>
             </div>
         </main>
-    </div>  
     </div>
-    <script src="scripts/script.js"></script>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
